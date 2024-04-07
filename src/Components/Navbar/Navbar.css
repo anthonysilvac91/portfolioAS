@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    background-color: #161719;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+.navbar{
+    display: flex;
+    margin-right: 80px;
+}
+
+.logo{
+    margin-left: 80px;
+    height: 50px;
+   
+}
+
+.logo img{
+    height: 100%;
+    padding: 10px;
+}
+nav h5{
+    margin: 10px;
+}
+
+.menu-item{
+    position: relative;
+}
+
+nav .menu-item::before{
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.3rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+nav .menu-item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+} 
+

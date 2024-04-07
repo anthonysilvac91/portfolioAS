@@ -1,0 +1,12 @@
+.hero-container{
+    background: #1C1D1E;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 20px 10px;
+}
