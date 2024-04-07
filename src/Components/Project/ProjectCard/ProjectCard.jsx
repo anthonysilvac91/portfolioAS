@@ -3,25 +3,25 @@ import './ProjectCard.css'
 
 
 
-const  ProjectCard = ({projects}) => {
+const  ProjectCard = ({project}) => {
 
   return (
     <>
       
-        <div key={projects.title} className='card-container'>
+        <div key={project.title} className='card-container'>
           <div  className='card-content'>
-            <h2> {projects.title} </h2>
+            <h2> {project.title} </h2>
             <p>
-            {projects.description1}
+            {project.description1}
             </p>
             <p>
-            {projects.description2}
+            {project.description2}
             </p>
             <div className='card-btn'>
-                <button><a href={projects.website}>Visitar</a></button>
-                <button><a href={projects.urlCode}>Github</a></button>
+                <button><a href={project.website}>Visitar</a></button>
+                <button><a href={project.urlCode}>Github</a></button>
                 <div className='tag'>
-                {projects.tech.map((techItem, index) => (
+                {project.tech.map((techItem, index) => (
                 <img key={index} src={techItem.skill} alt={techItem.skill} />
               ))}
                 </div>
@@ -29,7 +29,7 @@ const  ProjectCard = ({projects}) => {
         </div>
         
         <div className='card-img'>
-             <img src={projects.img} alt="" />
+             <img src={project.img} alt="" />
          </div>
         </div>
         
