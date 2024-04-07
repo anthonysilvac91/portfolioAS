@@ -1,27 +1,27 @@
 import React from 'react'
 import './ProjectCard.css'
-import proyecto_img from '../../../assets/proyecto1.png'
-import { projects } from '../../../Utils/projects'
 
-const  ProjectCard = () => {
+
+
+const  ProjectCard = ({projects}) => {
+
   return (
     <>
-    
-      {projects.map((item) => (
-        <div key={item.title} className='card-container'>
+      
+        <div key={projects.title} className='card-container'>
           <div  className='card-content'>
-            <h2> {item.title} </h2>
+            <h2> {projects.title} </h2>
             <p>
-            {item.description1}
+            {projects.description1}
             </p>
             <p>
-            {item.description2}
+            {projects.description2}
             </p>
             <div className='card-btn'>
-                <button><a href={item.website}>Visitar</a></button>
-                <button><a href={item.urlCode}>Github</a></button>
+                <button><a href={projects.website}>Visitar</a></button>
+                <button><a href={projects.urlCode}>Github</a></button>
                 <div className='tag'>
-                {item.tech.map((techItem, index) => (
+                {projects.tech.map((techItem, index) => (
                 <img key={index} src={techItem.skill} alt={techItem.skill} />
               ))}
                 </div>
@@ -29,10 +29,11 @@ const  ProjectCard = () => {
         </div>
         
         <div className='card-img'>
-             <img src={item.img} alt="" />
+             <img src={projects.img} alt="" />
          </div>
         </div>
-        ))} 
+        
+        
     
     </>
     
@@ -41,6 +42,3 @@ const  ProjectCard = () => {
 }
 
 export default ProjectCard 
-
-{/* <div className='card-content'>
-             */}
