@@ -1,0 +1,42 @@
+.education-container{
+    display: flex;
+    height: 90vh;
+    background: #1C1D1E;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 70px; 
+}
+
+.education-container h1{
+    font-size: 3rem;
+    padding: 0 80px;
+    margin-bottom: 10px;
+}
+
+.education-container .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px 80px;
+    align-items: center;
+}
+
+.card-edu{
+    background-color: #161719;
+    padding: 20px;
+    border: #7C5FE6 4px solid;
+    border-radius: 10px;
+}
+
+.card-edu h3{
+    font-size: 1.1rem;
+}
+
+.card-edu h3:hover{
+    color:#7C5FE6;
+    cursor: pointer;
+}
+
+.card-edu p{
+    color:#9F9D9D;
+}

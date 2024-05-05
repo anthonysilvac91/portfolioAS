@@ -7,6 +7,7 @@ import Project from './Components/Project/Project'
 import About from './Components/About/About'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Education from './Components/Education/Education'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path={routes.home} element={<Home/>}/>
       <Route path={routes.project} element={<Project/>}/>
       <Route path={routes.about} element={<About/>}/>
+      <Route path={routes.education} element={<Education/>}/>
     </Routes>
     
     </>

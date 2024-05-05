@@ -14,7 +14,7 @@ const About = () => {
             <div className='card-container'>
                 <div className='card-content'>
                     <p className=''>
-                    Soy un desarrollador de software freelance con 2 años de experiencia. Actualmente estoy estudiando Ingenieria en Infromática en la INACAP. 
+                    Soy un desarrollador de software freelance con 2 años de experiencia. Actualmente estoy estudiando Ingenieria Infromática. 
                     </p>
                     <p>
                     Mi interes por creecer me ha llevado a realizar diferentes cursos y certificaciones que me han brindado conocimiento en diferentes lenguajes, los cuales he puesto en práctica en diferentes proyectos.

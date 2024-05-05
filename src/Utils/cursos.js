@@ -13,7 +13,7 @@ export const cursos = [
 
     {
         nombre: 'JavaScript Moderno',
-        fecha: '>Mayo 2024',
+        fecha: 'Mayo 2024',
         Instituto: 'Udemy'
     },
 
