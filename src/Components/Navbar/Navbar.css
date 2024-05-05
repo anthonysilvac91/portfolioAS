@@ -44,9 +44,15 @@ nav .menu-item::before{
     transition: all 0.3s ease;
 }
 
-nav .menu-item:hover::before{
+/* nav .menu-item:hover::before{
     width: 100%;
     transform: translateX(0);
     opacity: 1;
-} 
+}  */
 
+
+.menu-item.active::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+  }

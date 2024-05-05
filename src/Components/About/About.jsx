@@ -14,11 +14,9 @@ const About = () => {
             <div className='card-container'>
                 <div className='card-content'>
                     <p className=''>
-                    Soy un desarrollador de software freelance con 2 años de experiencia. Actualmente estoy estudiando Ingenieria Infromática. 
-                    </p>
+                    Soy estudiante de Ingeniería Informática y desarrollador de software freelance con 2 años de experiencia.                    </p>
                     <p>
-                    Mi interes por creecer me ha llevado a realizar diferentes cursos y certificaciones que me han brindado conocimiento en diferentes lenguajes, los cuales he puesto en práctica en diferentes proyectos.
-                    </p>
+                    Mi interés por crecer me ha llevado a realizar diferentes cursos y certificaciones que me han brindado conocimiento en diferentes lenguajes, los cuales he puesto en práctica en diferentes proyectos.                    </p>
                     <div className='card-btn'>
                         <button>Linkedin</button>
                         <button>Github</button>
