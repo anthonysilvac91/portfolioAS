@@ -4,6 +4,7 @@ import js from '../assets/iconos/js.png'
 import react from '../assets/iconos/react.png'
 import imgProyecto1 from '../assets/proyecto1.png'
 import imgProyecto2 from '../assets/proyecto2.png'
+import imgProyecto3 from '../assets/proyecto3.png'
 
 export const projects = [
     {
@@ -35,5 +36,22 @@ export const projects = [
             
         ]
 
+    },
+    {
+        title: "titulo proyecto 3",
+        description1: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias",
+        description2: "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias",
+        website: "www.google.com",
+        urlCode: "www.google.com",
+        img: imgProyecto3,
+        tech: [
+            {skill: html},
+            {skill: css},
+            {skill: js},
+            {skill: js}
+            
+        ]
+
     }
+
 ]
