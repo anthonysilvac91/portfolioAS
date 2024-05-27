@@ -8,7 +8,7 @@ const  ProjectCard = ({project}) => {
   return (
     <>
       
-        <div key={project.title} className='card-container'>
+        <div key={project.title} className='project-card-container'>
           <div  className='card-content'>
             <h2> {project.title} </h2>
             <p>
@@ -18,8 +18,8 @@ const  ProjectCard = ({project}) => {
             {project.description2}
             </p>
             <div className='card-btn'>
-                <button><a href={project.website}>Visitar</a></button>
-                <button><a href={project.urlCode}>Github</a></button>
+                <a href={project.website}>Visitar</a>
+                <a href={project.urlCode}>Github</a>
                 <div className='tag'>
                 {project.tech.map((techItem, index) => (
                 <img key={index} src={techItem.skill} alt={techItem.skill} />

@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+// import './About.css'
 import {skills} from '../../Utils/skills'
 
 const About = () => {

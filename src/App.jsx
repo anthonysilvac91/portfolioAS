@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 import Navbar from './Components/Navbar/Navbar'
 import { Routes, Route } from 'react-router'
 import { routes } from './Utils/routes'

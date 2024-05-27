@@ -1,8 +1,7 @@
-import React, { useRef } from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
-import './Project.css'
 import { projects } from '../../Utils/projects'
 import Slider from 'react-slick';
+import './Project.css'
 
 
 const Project = () => {
@@ -16,20 +15,16 @@ const Project = () => {
 
 
   return (
-  
-    <div className='project-container'>
+    <>
       <h1>Proyectos Destacados</h1>
-      
-      <Slider {...settings}>
-      {projects.map((project, index)=>(
-          <ProjectCard key={index} project={project}/>
-      ))}
-      </Slider>
-      
-        
-      
-      
-    </div>
+      <div className='project-container'>
+        <Slider {...settings}>
+        {projects.map((project, index)=>(
+            <ProjectCard key={index} project={project}/>
+        ))}
+        </Slider>
+      </div>
+    </>
   
   )
 }
