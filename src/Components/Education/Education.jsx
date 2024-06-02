@@ -1,13 +1,16 @@
 import React from 'react'
-// import './Education.css'
+import './Education.css'
 import { cursos } from '../../Utils/cursos'
 
 const Education = () => {
   return (
+
+  <>
+  <h1>Educación</h1>
   <div className='education-container'>
     
-    <h1>Educación</h1>
-    <div className='card-container'>
+    
+    <div className='card-edu-container'>
     {cursos.map((item, index) => (
         <div className='card-edu'>
             <h3 key={index}>{item.nombre}</h3>
@@ -21,6 +24,7 @@ const Education = () => {
 
     </div>
   </div>
+  </>
   )
 }
 

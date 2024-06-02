@@ -1,35 +1,33 @@
 .education-container{
     display: flex;
-    height: 90vh;
     background: #1C1D1E;
     justify-content: center;
-    flex-direction: column;
-    padding: 0 70px; 
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+   
 }
 
-.education-container h1{
-    font-size: 3rem;
-    padding: 0 80px;
-    margin-bottom: 10px;
-}
 
-.education-container .card-container{
+
+.education-container .card-edu-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 20px 80px;
+    grid-template-columns: repeat(1, 1fr);
+     gap: 30px;
     align-items: center;
 }
 
 .card-edu{
     background-color: #161719;
-    padding: 20px;
+    padding: 10px;
     border: #7C5FE6 4px solid;
     border-radius: 10px;
 }
 
 .card-edu h3{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    color: #FFF;
+
 }
 
 .card-edu h3:hover{
@@ -39,4 +37,55 @@
 
 .card-edu p{
     color:#9F9D9D;
+    font-size: 0.7rem;
 }
+
+@media screen and (min-width: 768px){
+
+    .education-container .card-edu-container{
+       
+        grid-template-columns: repeat(3, 1fr);
+         
+    }
+
+   
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .card-edu h3{
+        font-size: 1.0rem;
+        
+    
+    }
+
+    .card-edu p{
+        
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px){
+
+    .card-edu h3{
+        font-size: 1.3rem;
+        
+    
+    }
+
+    .card-edu p{
+        
+        font-size: 0.9rem;
+    }
+
+    .card-edu{
+        padding: 20px;
+    }
+
+    
+
+}
+
