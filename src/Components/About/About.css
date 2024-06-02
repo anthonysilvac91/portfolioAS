@@ -1,5 +1,145 @@
+.desk{
+    display: none;
+}
 
-.about-container{
+.card-about-content p{
+    color: #fff;
+    margin: 0px 10px;
+    padding: 10px;
+    font-size: 0.80rem;
+}
+
+.card-about-content .card-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.card-about-content .card-btn button{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.card-skill{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.card-skill h3{
+    color: white;
+    background-color: #161719;
+    padding: 5px;
+    border: #7C5FE6 4px solid;
+    border-radius: 10px;
+    font-size: 0.8rem;
+
+}
+
+@media screen and (min-width: 425px){
+
+    .card-skill{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        text-align: center;
+        margin: 20px 30px;
+    }
+
+    .card-about-content p{
+       
+        margin: 0px 30px;
+        font-size: 0.9rem;
+    }
+
+    .card-skill h3{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .mob{
+        display: none;
+    }
+
+    .desk{
+        display: block;
+    }
+
+
+    .card-about-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px 50px;
+    }
+
+    .card-title{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 80px;
+        gap: 70px;
+    }
+
+    .card-about-content .card-btn{
+        display: flex;
+        justify-content: start;
+        margin: 0px 30px;
+    }
+
+    .card-skill{
+        margin: 20px 40px;
+
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px){
+
+    .card-about-content p{
+       
+        font-size: 1.2rem;
+    }
+
+    .card-skill h3{
+        font-size: 1.2rem;
+    }
+
+    .card-skill{
+        gap: 20px;
+    }
+
+}
+
+
+
+
+
+/* .card-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 80px;
+    gap: 70px;
+}
+
+.card-about-container {
+    padding: 0 80px;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+/* .about-container{
     display: flex;
     height: 90vh;
     background: #1C1D1E;
@@ -45,11 +185,7 @@
     border: #7C5FE6 4px solid;
     border-radius: 10px;
 
-}
-
-
-
-
+} */
 
 
 

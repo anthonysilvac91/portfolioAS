@@ -1,18 +1,19 @@
 import React from 'react'
-// import './About.css'
+import './About.css'
 import {skills} from '../../Utils/skills'
 
 const About = () => {
     return(
-        
+        <>
+        <h1>Sobre mi</h1>
         <div className='about-container'>
-            <h1>Sobre mi</h1>
+            
             <div className='card-title'>
                 <h2>Anthony Silva</h2>
-                <h2>Habilidades Técnicas</h2>
+                <h2 className='desk'>Habilidades Técnicas</h2>
             </div>
-            <div className='card-container'>
-                <div className='card-content'>
+            <div className='card-about-container'>
+                <div className='card-about-content'>
                     <p className=''>
                     Soy estudiante de Ingeniería Informática y desarrollador de software freelance con 2 años de experiencia.                    </p>
                     <p>
@@ -23,6 +24,7 @@ const About = () => {
                         <button>Contacto</button>
                     </div>
                 </div>
+                <h2 className='mob'>Habilidades Técnicas</h2>
                 <div className='card-content-skill'>
                     <div className='card-skill'>
 
@@ -34,6 +36,7 @@ const About = () => {
                 
             </div>
         </div>
+        </>
          
     )
 }
