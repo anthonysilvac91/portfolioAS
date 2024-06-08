@@ -1,5 +1,6 @@
 import React from 'react'
-// import './Home.css'
+import './Home.css'
+import Menu from '../Navbar/Menu'
 
 const Home = () => {
   return (
@@ -10,6 +11,11 @@ const Home = () => {
         <div>
             <button>Linkedin</button>
             <button>GitHub</button>
+        </div>
+
+        <div className='nav-hero'>
+          <Menu/>
+
         </div>
     </div>
   )

@@ -10,3 +10,57 @@
 button{
     margin: 20px 10px;
 }
+
+.hero-container h5{
+    color: #FFF;
+    font-weight: bold;
+}
+
+.hero-container h2{
+    color: #7C5FE6;
+}
+
+
+
+.nav-hero{
+    display: flex;
+}
+
+.hero-container .nav-hero li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+/* .hero-container .nav-hero li h5{
+    color: #7C5FE6
+} */
+
+.hero-container .nav-hero li h5:hover{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14.5px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .hero-container h1{
+        font-size: 2.5rem;
+    }
+
+    .nav-hero{
+        display: none;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1024px){
+    .hero-container h1{
+        margin: 0;
+    }
+
+
+}

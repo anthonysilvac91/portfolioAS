@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import './Navbar.css'
-import { menuItems } from '../../Utils/menuItems'
+// import { menuItems } from '../../Utils/menuItems'
 import MenuIcon from '@mui/icons-material/Menu';
+import Menu from './Menu'
 
 const Navbar = () => {
-    const location = useLocation();
+    // const location = useLocation();
     const [menuOpen, setMenuOpen] = useState (false)
 
 
@@ -28,7 +29,7 @@ const Navbar = () => {
     <div className='navbar'>
         <ul className={menuOpen ? "open" : ""}>
           
-        {menuItems.map((item, index)=>(
+        {/* {menuItems.map((item, index)=>(
 
                 <li>
                 <Link key={index} to={item.route} >
@@ -37,8 +38,8 @@ const Navbar = () => {
                 </li>
               
               
-            ))}
-            
+            ))} */}
+            <Menu/>
             </ul>
     </div>
     
