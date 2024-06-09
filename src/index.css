@@ -32,9 +32,29 @@ h2{
   padding: 10px;
 }
 
-
 a{
   text-decoration: none;
+}
+
+
+.btn{
+  
+  color: #fff;
+  background-color: #7C5FE6;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: #7C5FE6 2px solid;
+  margin: 10px;
+}
+
+
+.btn:hover{
+  background: #1C1D1E;
+  color: #7C5FE6;
+
 }
 
 button{
@@ -43,6 +63,8 @@ button{
   border-radius: 10px;
   border: #7C5FE6 2px solid;
   cursor: pointer;
+  color: #fff;
+  font-weight: 500;
 }
 
 button:hover{

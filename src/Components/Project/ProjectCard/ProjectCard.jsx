@@ -18,8 +18,8 @@ const  ProjectCard = ({project}) => {
             {project.description2}
             </p>
             <div className='card-btn'>
-                <a href={project.website}>Visitar</a>
-                <a href={project.urlCode}>Github</a>
+                <a className='btn' href={project.website}>Visitar</a>
+                <a className='btn' href={project.urlCode}>Github</a>
                 <div className='tag'>
                 {project.tech.map((techItem, index) => (
                 <img key={index} src={techItem.skill} alt={techItem.skill} />

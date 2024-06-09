@@ -1,14 +1,23 @@
 .hero-container{
     background: #1C1D1E;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.btn-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 button{
     margin: 20px 10px;
+}
+
+.hero-container h1{
+    font-size: 1.7rem;
 }
 
 .hero-container h5{
@@ -18,6 +27,7 @@ button{
 
 .hero-container h2{
     color: #7C5FE6;
+    font-size: 1.2rem;
 }
 
 
@@ -63,4 +73,18 @@ button{
     }
 
 
+}
+
+@media screen and (min-width: 1024px){
+    .hero-container h1{
+        font-size: 4rem;
+    }
+
+    .hero-container h2{
+        font-size: 2rem;
+    }
+
+    .hero-container h5{
+        font-size: 1.5rem;
+    }
 }

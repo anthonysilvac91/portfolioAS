@@ -21,6 +21,8 @@
 
 .project-card-container .card-content .card-btn{
     text-align: center;
+    margin-top: 5px;
+    
 }
 
 .project-card-container .card-content .tag{
