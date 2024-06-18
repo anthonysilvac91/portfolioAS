@@ -14,12 +14,15 @@ const App = () => {
   return (
     <>
     <Navbar/>
-    <Routes>
+    {/* <Routes>
       <Route path={routes.home} element={<Home/>}/>
       <Route path={routes.project} element={<Project/>}/>
       <Route path={routes.about} element={<About/>}/>
       <Route path={routes.education} element={<Education/>}/>
-    </Routes>
+    </Routes> */}
+    <Home/>
+    <About/>
+    <Project/>
     
     </>
   )

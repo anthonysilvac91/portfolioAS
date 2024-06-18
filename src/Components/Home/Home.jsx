@@ -1,22 +1,33 @@
 import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import MailOutlineIcon from '@mui/icons-material/MailOutline'
+import Perfil from '../../assets/foto_perfil.jpg'
 import './Home.css'
 import Menu from '../Navbar/Menu'
 
 const Home = () => {
   return (
     <div className='hero-container'>
-        <h2>Desarrollador de Software</h2>
+      <div className='hero-foto'>
+        <img src={Perfil} alt="" />
+      </div>
+      <div className='desc-container'>
+        <h2>Desarrollador Frontend</h2>
         <h1>Anthony Silva</h1>
-        <h5>Full-Stack</h5>
+        <p>Hola, me apasiona diseñar y desarrollar interfaces web intuitivas, modernas y fáciles de usar para todos.</p>
         <div className='btn-container'> 
-            <a className='btn' href="https://linkedin.com/in/anthonysilvac" target='valor_blank'>Linkedin</a>
-            <a className='btn' href="https://github.com/anthonysilvac91" target='valor_blank'>Github</a>
+          <GitHubIcon className='btn-icon' sx={{ fontSize: 50 }} />
+          <LinkedInIcon className='btn-icon' sx={{ fontSize: 50 }} />
+          <MailOutlineIcon className='btn-icon' sx={{ fontSize: 50 }}/>
         </div>
-
+      </div>
+       
+{/* 
         <div className='nav-hero'>
           <Menu/>
 
-        </div>
+        </div> */}
     </div>
   )
 }

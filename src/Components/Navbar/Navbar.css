@@ -14,11 +14,13 @@ nav{
     position: absolute;
     right: 0.5rem;
     
+    
 }
 
 .navbar{
     display: flex;
     justify-content: center;
+    z-index: 1000;
     
 }
 

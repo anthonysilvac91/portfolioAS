@@ -1,56 +1,64 @@
 .hero-container{
     background: #1C1D1E;
-    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.btn-container{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.hero-container .hero-foto {
+    margin-top: 30px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: #7C5FE6 4px solid;
 }
 
-button{
-    margin: 20px 10px;
+.hero-container .hero-foto img{
+    height: 100%;
 }
+
+.btn-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 
 .hero-container h1{
     font-size: 1.7rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
-.hero-container h5{
-    color: #FFF;
-    font-weight: bold;
-}
 
 .hero-container h2{
     color: #7C5FE6;
     font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-
-
-.nav-hero{
-    display: flex;
+p{
+    color: #9F9D9D;
+    font-style: italic;
+    padding: 10px;
+    margin: 0 10px;
 }
 
-.hero-container .nav-hero li{
-    list-style: none;
-    margin: 10px;
-    
-}
-
-/* .hero-container .nav-hero li h5{
-    color: #7C5FE6
-} */
-
-.hero-container .nav-hero li h5:hover{
+.btn-icon{
     color: #fff;
-    cursor: pointer;
-    font-size: 14.5px;
     
+}
+
+.btn-icon:hover{
+    color: #7C5FE6;
 }
 
 @media screen and (min-width: 768px){
@@ -68,14 +76,21 @@ button{
 }
 
 @media screen and (min-width: 1024px){
+    .hero-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .hero-container h1{
         margin: 0;
     }
 
+    
+
 
 }
 
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1440px){
     .hero-container h1{
         font-size: 4rem;
     }
@@ -87,4 +102,4 @@ button{
     .hero-container h5{
         font-size: 1.5rem;
     }
-}
+} */

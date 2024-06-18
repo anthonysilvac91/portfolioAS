@@ -15,7 +15,7 @@ const Project = () => {
 
 
   return (
-    <>
+    <div className='project'>
       <h1>Proyectos Destacados</h1>
       <div className='project-container'>
         <Slider {...settings}>
@@ -24,7 +24,7 @@ const Project = () => {
         ))}
         </Slider>
       </div>
-    </>
+    </div>
   
   )
 }

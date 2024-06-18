@@ -1,9 +1,14 @@
+.about{
+    margin-top: 30px;
+}
+
+
 .desk{
     display: none;
 }
 
 .card-about-content p{
-    color: #fff;
+    color: #9F9D9D;
     margin: 0px 10px;
     padding: 10px;
     font-size: 0.80rem;
@@ -29,12 +34,28 @@
 
 .card-skill h3{
     color: white;
+    /* padding: 5px; */
+    font-size: 0.8rem;
+    color: #9F9D9D;
+    margin-top: 2px;
+    font-weight: bold;
+
+}
+
+.card-skill .skill-img{
+    height: 30px;
+}
+
+.card-skill .skill-img img{
+    height: 100%;
+    color: #9F9D9D;
+}
+
+.skill{
     background-color: #161719;
-    padding: 5px;
     border: #7C5FE6 4px solid;
     border-radius: 10px;
-    font-size: 0.8rem;
-
+    padding: 10px;
 }
 
 @media screen and (min-width: 425px){
