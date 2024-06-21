@@ -1,3 +1,7 @@
+.education{
+    margin-top: 40px;
+}
+
 .education-container{
     display: flex;
     background: #1C1D1E;
@@ -63,6 +67,11 @@
     .card-edu p{
         
         font-size: 0.8rem;
+    }
+
+    .education{
+        margin: 0;
+        height: 100vh;
     }
 
     

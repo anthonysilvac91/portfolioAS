@@ -13,8 +13,9 @@ const Home = () => {
         <img src={Perfil} alt="" />
       </div>
       <div className='desc-container'>
+      <h1>Anthony Silva</h1>
         <h2>Desarrollador Frontend</h2>
-        <h1>Anthony Silva</h1>
+        
         <p>Hola, me apasiona diseñar y desarrollar interfaces web intuitivas, modernas y fáciles de usar para todos.</p>
         <div className='btn-container'> 
           <GitHubIcon className='btn-icon' sx={{ fontSize: 50 }} />

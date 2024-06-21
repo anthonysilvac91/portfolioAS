@@ -12,17 +12,20 @@
     width: 300px;
 }
 
-.project-card-container .card-content p{
-    color: #fff;
+ .project-card-container .card-content .desc-card{
     margin: 0px 10px;
-    padding: 10px;
-    font-size: 0.9rem;
-}
+    padding: 5px 10px;
+   
+} 
 
 .project-card-container .card-content .card-btn{
     text-align: center;
     margin-top: 5px;
     
+}
+
+.project-card-container .btn-container{
+    margin: 10px 0 0 0;
 }
 
 .project-card-container .card-content .tag{
@@ -57,9 +60,12 @@
 
 @media screen and (min-width: 768px) {
 
-    .project-card-container .card-content p{
-        padding: 10px 30px;
+    .project-card-container .card-content .desc-card{
+        
+        margin: 0 30px;
     }
+
+    
 
     .project-card-container .card-content .tag{
         margin: 10px 40px 20px;
@@ -67,7 +73,7 @@
     }
 
     .project-card-container .card-img{
-        max-width: 600px;
+        max-width: 500px;
         
     }
    
@@ -95,9 +101,28 @@
         padding: 10px 0px;
     }
 
+    .project-card-container .card-content .desc-card{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
     .project-card-container .card-content .tag{
         margin: 10px 10px 20px;
 
+    }
+
+    .card-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-btn .btn-container{
+        display: flex;
+        
+    }
+
+    .card-btn .btn-container .desc-icon{
+        padding: 0;
     }
 
   }
@@ -123,11 +148,20 @@
     .project-card-container .card-content .tag img{
         height: 40px;
         margin: 10px 20px;
+        
     }
 
     .project-card-container .card-content  a{
         font-size: 1.3rem;
         
+    }
+    .card-btn .btn-container .desc-icon{
+        margin: 0;
+    }
+
+    .card-btn .btn-container{
+        justify-content: center;
+        align-items: center;
     }
 
 

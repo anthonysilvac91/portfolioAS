@@ -1,28 +1,33 @@
 .project{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
 .project-container{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
 .project-container .slick-prev {
     left: 20px;
-    top: 83%;
+    top: 65%;
     z-index: 1;
 
 }
 
 .project-container .slick-next {
     right: 20px;
-    top: 83%;
+    top: 65%;
     z-index: 1;
 
 }
+
+ .btn-container .btn-icon{
+    text-align: center;
+    
+} 
 
 @media screen and (min-width: 768px) {
     .project-container .slick-next, .project-container .slick-prev{
@@ -35,6 +40,11 @@
 
     .project-container .slick-next, .project-container .slick-prev{
         top: 50%;
+    }
+
+    .project{
+        margin: 0;
+        height: 100vh;
     }
     
 }

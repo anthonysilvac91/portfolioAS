@@ -1,6 +1,4 @@
-.about{
-    margin-top: 30px;
-}
+
 
 
 .desk{
@@ -10,7 +8,7 @@
 .card-about-content p{
     color: #9F9D9D;
     margin: 0px 10px;
-    padding: 10px;
+    
     font-size: 0.80rem;
 }
 
@@ -70,7 +68,6 @@
 
     .card-about-content p{
        
-        margin: 0px 30px;
         font-size: 0.9rem;
     }
 
@@ -80,13 +77,43 @@
 
 }
 
+@media screen and (min-width: 768px){
+
+    .card-about-content p{
+        margin: 0 30px;
+    }
+
+
+}
+
+
 @media screen and (min-width: 1024px){
+    
+    .about{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
     .mob{
         display: none;
     }
 
     .desk{
         display: block;
+        
+    }
+
+    .card-title h2{
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .card-title h1{
+        margin: 10px;
+        padding: 0;
+
     }
 
 
@@ -114,10 +141,27 @@
 
     }
 
+    .card-about-content p{
+        font-size: 1.2rem;
+    }
+
+    .about{
+        height: 90vh;
+    }
+
     
 }
 
 @media screen and (min-width: 1440px){
+
+    .card-title h2{
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+
+
+    
 
     .card-about-content p{
        

@@ -5,7 +5,7 @@ import { cursos } from '../../Utils/cursos'
 const Education = () => {
   return (
 
-  <>
+  <div className='education'>
   <h1>Educación</h1>
   <div className='education-container'>
     
@@ -24,7 +24,7 @@ const Education = () => {
 
     </div>
   </div>
-  </>
+  </div>
   )
 }
 
