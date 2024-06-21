@@ -16,7 +16,7 @@ const Project = () => {
 
   return (
     <div className='project'>
-      <h1>Proyectos Destacados</h1>
+      <h1 className='underline'>Proyectos Destacados</h1>
       <div className='project-container'>
         <Slider {...settings}>
         {projects.map((project, index)=>(

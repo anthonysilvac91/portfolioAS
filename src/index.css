@@ -7,6 +7,8 @@
   font-style: normal;
 }
 
+
+
 body{
   background-color: #1C1D1E;
 }
@@ -113,6 +115,12 @@ button:hover{
     padding: 10px 0px;
     font-size: 1.5rem;
 
+  }
+
+  .underline{
+    border-bottom: 4px solid #7C5FE6;
+    width: 40%;
+    
   }
 
   h1{

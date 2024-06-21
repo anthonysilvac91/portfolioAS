@@ -9,7 +9,7 @@ const About = () => {
     return(
         <div className='about'>
             <div className='card-title'>
-            <h1>Sobre mi</h1>
+            <h1 className='underline'>Sobre mi</h1>
             <h2 className='desk'>Habilidades Técnicas</h2>
             </div>
         

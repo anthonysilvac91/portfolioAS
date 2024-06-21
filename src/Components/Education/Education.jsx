@@ -6,7 +6,7 @@ const Education = () => {
   return (
 
   <div className='education'>
-  <h1>Educación</h1>
+  <h1 className='underline'>Educación</h1>
   <div className='education-container'>
     
     
