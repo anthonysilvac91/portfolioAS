@@ -8,6 +8,8 @@ import C from '../assets/iconos/c_white.png'
 import Python from '../assets/iconos/python_white.png'
 import Sql from '../assets/iconos/sql_white.png'
 import Git from '../assets/iconos/git_white.png'
+import Ts from '../assets/iconos/ts_white.png'
+
 
 
 
@@ -15,7 +17,8 @@ import Git from '../assets/iconos/git_white.png'
 export const skills = [
     {skill: 'HTML', logo: Html},
     {skill: 'CSS', logo: Css},
-    {skill: 'JS', logo: Js},
+    {skill: 'Javascript', logo: Js},
+    {skill: 'Typescript', logo: Ts},
     {skill: 'REACT', logo: React},
     {skill: 'ANGULAR', logo: Angular},
     {skill: 'JAVA', logo: Java},
